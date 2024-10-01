@@ -1,0 +1,64 @@
+﻿body {
+    background-color: #353535;
+}
+
+.grid_item {
+    margin-top: 50px;
+    width: 500px;
+    height: auto;
+    /*background: skyblue;*/
+    background-color: snow;
+    /*padding: 20px;*/
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: auto;
+    box-sizing: border-box;
+    border-style: solid;
+    justify-items: center;
+    right: 500px;
+}
+
+
+.link {
+    text-align: center;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    background-color: #f24848;
+    /*padding: 0.5rem;*/
+    /*font-size: 1rem;*/
+    text-align: center;
+    width: 100%;
+}
+
+.titleNav {
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    background-color: #f24848;
+    align-items: center;
+}
+
+    .titleNav img {
+        width: 300px;
+        margin-right: 20px;
+        border-style: solid;
+    }
+
+#titleLogo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.button {
+    margin-bottom: 90px;
+}
+/*ABOUT ME SECTION
+*/

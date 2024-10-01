@@ -1,0 +1,87 @@
+﻿
+
+.hiddenColumn {
+    display: none;
+}
+
+.Questions {
+    margin-top:50px;
+    border-style: solid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Calendar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-style: solid;
+    justify-items: center;
+    border-style: solid;
+}
+
+.HomePlans {
+    border-style: solid;
+    justify-items: center;
+
+}
+/*heads up I just copy this from the w3 school: https://www.w3schools.com/css/css_image_gallery.asp*/
+div.HomeImages {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: right;
+    width: 180px;
+}
+
+    div.HomeImages:hover {
+        border: 1px solid #777;
+    }
+
+    div.HomeImages img {
+        border-style: solid;
+        width: 100%;
+        height: auto;
+    }
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+} 
+
+.dropdownList {
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 100px;
+}
+
+.HomeAdditions {
+    border-style: solid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/*Copy old client side project css*/
+.titleNav {
+    display: flex;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    background-color: #f24848;
+    align-items: center;
+}
+
+    .titleNav img {
+        width: 200px;
+        margin-right: 20px;
+        border-style: solid;
+    }
+
+#footer {
+    bottom: 0px;
+    z-index: 1;
+    background-color: #f24848;
+    /*padding: 0.5rem;*/
+    /*font-size: 1rem;*/
+    text-align: center;
+    width: 100%;
+}
